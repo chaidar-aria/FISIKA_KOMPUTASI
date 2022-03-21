@@ -53,7 +53,7 @@ print("Iterasi Selesai")
 
 # %%
 # Konfigurasi
-plt.title("Kontur Suhur")
+plt.title("Kontur Suhu")
 plt.contourf(X, Y, T, colorinterpolation, cmap=colourMap)
 plt.colorbar()
 plt.show()
