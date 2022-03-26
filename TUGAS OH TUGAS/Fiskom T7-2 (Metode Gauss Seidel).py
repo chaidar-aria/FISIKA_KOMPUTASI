@@ -6,9 +6,6 @@
 import numpy as np
 import sympy as smp
 
-f1 = lambda x,y,z: 3*x+y-2*z = -2
-f2 = lambda x,y,z: 2*x+3*y+5*z = 0
-f3 = lambda x,y,z: x+3*y+4*z = 3
 
 #Initial setup
 x0 = 0
@@ -32,11 +29,4 @@ while condition:
     e2 = abs(y0-y1);
     e3 = abs(z0-z1);
 
-    count += 1
-    x0 = x1
-    y0 = y1
-    z0 = z1
-
-    condition = e1>e and e3>e
-
-print('\nSolution: x=%0.3f, y=%0.3f and z = %0.3f\n'% (x1,y1,z1))
+    
